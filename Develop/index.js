@@ -40,6 +40,12 @@ inquirer
         message: "Where should people contact you for questions?",
         name: "email"
       },
+      {
+          type: "list",
+          message: "what license would you like to use?",
+          name: "license",
+          choices: ["Apache 2.0", "GNU v3.0"]
+      }
       
   ])
   .then(function(response) {
