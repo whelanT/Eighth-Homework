@@ -2,9 +2,8 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
-fs.writeFileSync
-// function to initialize program
-//I have no idea what this is for
+
+
 function init() {
   
 inquirer
@@ -77,8 +76,8 @@ function writeToFile(answer) {
     //   console.log("created README")
     // } );
 }
-// function call to initialize program
-//isn't this just 'node index.js'?
+
+//starts to code off
 init();
 
 
